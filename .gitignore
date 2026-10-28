@@ -1,0 +1,21 @@
+## ide
+**/.idea
+*.iml
+
+## backend
+**/target
+**/logs
+
+## front
+**/*.lock
+
+# Local factory integration runtime, credentials and database backups
+/.quality-local/
+/.local-runtime/
+**/__pycache__/
+
+# Generated build output and execution logs
+/execution-dist/
+/*.log
+/汇报材料/**/build/
+/汇报材料/**/.layout-check-output/
